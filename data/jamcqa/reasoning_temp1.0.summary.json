@@ -1,0 +1,73 @@
+{
+ "model": "inkling-2-mini",
+ "dataset": "sbintuitions/JamC-QA v1.0 test (subset)",
+ "qid_file": "jamcqa_subset300_seed20261123.txt",
+ "total": 300,
+ "correct": 164,
+ "accuracy": 54.67,
+ "parse_fail": 1,
+ "parse_fail_rate": 0.33,
+ "truncated": 1,
+ "truncated_rate": 0.33,
+ "errors": 0,
+ "max_tokens": 8192,
+ "temperature": 1.0,
+ "extra_body": {
+  "reasoning_effort": "none"
+ },
+ "few_shot_n": 3,
+ "workers": 16,
+ "force_direct": false,
+ "wall_sec": 2087.6,
+ "completion_tokens_median": 705,
+ "completion_tokens_max": 8192,
+ "pred_distribution": {
+  "-1": 1,
+  "0": 72,
+  "1": 83,
+  "2": 76,
+  "3": 68
+ },
+ "category_breakdown": {
+  "culture": {
+   "correct": 42,
+   "total": 83,
+   "accuracy": 50.6
+  },
+  "custom": {
+   "correct": 14,
+   "total": 26,
+   "accuracy": 53.85
+  },
+  "geography": {
+   "correct": 13,
+   "total": 35,
+   "accuracy": 37.14
+  },
+  "government": {
+   "correct": 9,
+   "total": 14,
+   "accuracy": 64.29
+  },
+  "healthcare": {
+   "correct": 5,
+   "total": 6,
+   "accuracy": 83.33
+  },
+  "history": {
+   "correct": 25,
+   "total": 45,
+   "accuracy": 55.56
+  },
+  "law": {
+   "correct": 29,
+   "total": 39,
+   "accuracy": 74.36
+  },
+  "regional_identity": {
+   "correct": 27,
+   "total": 52,
+   "accuracy": 51.92
+  }
+ }
+}
